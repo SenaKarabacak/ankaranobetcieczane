@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="#d63031"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="eczane"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:id="@+id/eczaneIsmi"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="eczane"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/eczaneAdres"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:text="eczane"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/eczaneTelefon"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Ara"
+            android:layout_margin="5dp"
+            android:id="@+id/aramaYapButon"
+            android:textStyle="bold"
+            android:background="#0984e3"
+            android:textColor="#fff"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="eczane"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/eczaneFax"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="eczane"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/eczaneAdresTarifi"/>
+
+</LinearLayout>
